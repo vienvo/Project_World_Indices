@@ -26,13 +26,6 @@ MySQL:  all data points are related by Country Code.  It makes senses to use rel
 
 HTML5, CSS, and JS:  for interactive charts.
 
-
-### Level 2: Impress the Boss (Optional Challenge Assignment)
-
-Why make a static graphic when D3 lets you interact with your data?
-
-![7-animated-scatter](Images/7-animated-scatter.gif)
-
 ### Data Source
 
 World Bank
