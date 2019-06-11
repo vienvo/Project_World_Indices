@@ -32,6 +32,17 @@ World Bank
 
 https://databank.worldbank.org/
 
+### Step-by-step
+
+1.	Download data from World Bank.
+2.	Load data to MySQL.
+3.	Create Flask route.
+4.	Create skeleton of HTML with CSS.
+5.	Create story line – what do you want to talk about?
+6.	Create core charts to illustrate your story.
+7.	Beautify the site.
+
+
 ### Data Explanation
 
 Net migration: Net migration is the net total of migrants during the period, that is, the total number of immigrants less the annual number of emigrants, including both citizens and noncitizens. Data are five-year estimates.
