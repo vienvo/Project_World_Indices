@@ -2,7 +2,7 @@
 
 ![World](https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif)
 
-## Team Member
+## Team Members
 
 Mubbasheer Ahmed
 
