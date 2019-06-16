@@ -39,7 +39,11 @@ body,
 }
 
 .land-boundary {
-  stroke: black;
+  stroke:#fff;
   stroke-width: .5px;
-  fill: none;
+  fill: #ccc;
 }
+
+/* #countryLabel {
+  fill: #000
+} */
