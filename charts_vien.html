@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Hair Metal Conclusion</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-	</head>
-	<body>
-		<div class="chart">
+
+<head>
+	<meta charset="utf-8">
+	<title>GDP and Life Expectancy</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+</head>
+
+<body>
+<input id="slider" type="range" min="2000" max="2011" value="2000" step="1">
+<span id="range">2000</span>
+<button name="play" id="play">Play</button>
+	<div class="container">
+		<h1>GDP and Life Expectancy</h1>
+		<div class="row">
+				<div class="col-md-12">
+					<div class="chart" id="chartVien"></div>
+				</div>
 		</div>
-		<script type="text/javascript" src="js/chartVien.js"></script>
-  </body>
+		<h2>Time</h2>
+		<div class="row align-items-center">
+			<div class="col-sm-2">
+				<p id="value-time"></p>
+			</div>
+			<div class="col-sm">
+				<div id="slider-time"></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/chartVien.js"></script>
+</body>
+
 </html>

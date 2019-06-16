@@ -14,6 +14,16 @@ img {
     background-color: black;
 }
 
+/* #chartVien{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  margin-top: -20px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}​ */
+
 #stars {
     width: 1px;
     height: 1px;
