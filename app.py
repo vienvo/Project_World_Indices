@@ -28,6 +28,8 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = "0"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
+db.init_app(app)
+
 
 # reflect an existing database into a new model
 Base = automap_base()
