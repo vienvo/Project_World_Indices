@@ -51,7 +51,7 @@ def index():
 
 
 @app.route("/years")
-def names():
+def years():
     """Return a list of sample names."""
 
     # Use Pandas to perform the sql query
@@ -61,6 +61,18 @@ def names():
     # Return a list of the column names (Years Data)
     return jsonify(list(df.columns)[4:])
 
+@app.route("/world_data")
+def world_data():
+    """Return a list of sample names."""
+
+    # Use Pandas to perform the sql query
+    stmt = db.session.query(World_Data).statement
+    df = pd.read_sql_query(stmt, db.session.bind)
+
+    years_columns =[str(x) for x in (range(1960,2017))]
+
+    new_table = pd.pivot_table(df, values=years_columns, index= ['CountryName'], columns=["Index"])
+    return new_table.to_json(orient='records')
 
 
 
